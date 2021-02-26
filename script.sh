@@ -5,9 +5,8 @@ do
 if [ $(expr $i % 2) -eq 0 ]
 then
 echo "even numbers are"
-if
+fi
 echo $i
-
 done
 
 
