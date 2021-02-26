@@ -1,6 +1,12 @@
 #!/bin/bash
 
-# example of using arguments to a script
-echo "My first name is $1"
-echo "My surname is $2"
-echo "Total number of arguments is $#" 
+for i (1..10)
+do 
+if [ (expr i % 2) -eq 0 ]
+then
+echo "even numbers are"
+echo $i
+fi
+done
+
+
